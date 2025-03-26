@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921582140767",
+    "project_id": "emotunes-app",
+    "storage_bucket": "emotunes-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921582140767:android:cbb8ffc6a52122c39e8aea",
+        "android_client_info": {
+          "package_name": "com.example.emotunes_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABJBpWQn5xgVJ9IcFWrULnuJ_cC60zO84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
