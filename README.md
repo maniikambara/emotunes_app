@@ -40,7 +40,7 @@ EmoTunes is a cross-platform application that recommends music based on your emo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/emotunes.git
+   git clone https://github.com/maniikambara/emotunes_app.git
    cd emotunes
    ```
 
