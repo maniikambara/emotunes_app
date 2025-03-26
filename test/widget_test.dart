@@ -64,7 +64,7 @@ void main() {
           ],
           child: const MaterialApp(
             home: RecommendationsScreen(
-              mood: EmotionType.happy,
+              mood: EmotionType.Happy,
             ),
           ),
         ),
@@ -122,7 +122,7 @@ void main() {
           ],
           child: const MaterialApp(
             home: RecommendationsScreen(
-              mood: EmotionType.happy,
+              mood: EmotionType.Happy,
             ),
           ),
         ),

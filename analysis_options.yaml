@@ -10,6 +10,7 @@ analyzer:
     implicit-dynamic: false
   errors:
     # treat missing required parameters as a warning (not a hint)
+    constant_identifier_names: ignore
     library_private_types_in_public_api: ignore
     missing_required_param: warning
     # treat missing returns as a warning (not a hint)

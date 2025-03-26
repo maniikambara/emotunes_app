@@ -31,12 +31,13 @@ void main() {
 
     test('emotion types are correct', () {
       expect(EmotionType.values, [
-        EmotionType.happy,
-        EmotionType.sad,
-        EmotionType.energetic,
-        EmotionType.calm,
-        EmotionType.angry,
-        EmotionType.neutral,
+        EmotionType.Happy,
+        EmotionType.Sad,
+        EmotionType.Surprised,
+        EmotionType.Fearful,
+        EmotionType.Angry,
+        EmotionType.Disgusted,
+        EmotionType.Neutral,
       ]);
     });
 

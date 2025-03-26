@@ -11,12 +11,13 @@ import 'package:logging/logging.dart';
 final _logger = Logger('EmotionService');
 
 enum EmotionType {
-  happy,
-  sad,
-  energetic,
-  calm,
-  angry,
-  neutral
+  Happy,
+  Sad,
+  Surprised,
+  Fearful,
+  Angry,
+  Disgusted,
+  Neutral
 }
 
 class EmotionService extends ChangeNotifier {
@@ -150,7 +151,7 @@ class EmotionService extends ChangeNotifier {
       final predictedLabel = _labels[maxIndex];
       _currentEmotion = EmotionType.values.firstWhere(
         (e) => e.toString().split('.').last == predictedLabel,
-        orElse: () => EmotionType.neutral
+        orElse: () => EmotionType.Neutral
       );
       
       _logger.info('Detected emotion: $_currentEmotion (confidence: ${maxConfidence.toStringAsFixed(2)})');
