@@ -1,0 +1,6 @@
+happy
+sad
+energetic
+calm
+angry
+neutral

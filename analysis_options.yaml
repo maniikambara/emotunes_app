@@ -1,0 +1,94 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "lib/generated_plugin_registrant.dart"
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  errors:
+    # treat missing required parameters as a warning (not a hint)
+    library_private_types_in_public_api: ignore
+    missing_required_param: warning
+    # treat missing returns as a warning (not a hint)
+    missing_return: warning
+    # allow having TODOs in the code
+    public_member_api_docs: ignore
+    todo: ignore
+    unused_local_variable: ignore
+    use_build_context_synchronously: ignore
+
+linter:
+  rules:
+    # Style rules
+    - always_declare_return_types
+    - always_put_control_body_on_new_line
+    - always_put_required_named_parameters_first
+    - always_require_non_null_named_parameters
+    - annotate_overrides
+    - avoid_bool_literals_in_conditional_expressions
+    - avoid_empty_else
+    - avoid_function_literals_in_foreach_calls
+    - avoid_init_to_null
+    - avoid_null_checks_in_equality_operators
+    - avoid_relative_lib_imports
+    - avoid_return_types_on_setters
+    - avoid_shadowing_type_parameters
+    - avoid_types_as_parameter_names
+    - avoid_unused_constructor_parameters
+    - camel_case_types
+    - constant_identifier_names
+    - curly_braces_in_flow_control_structures
+    
+    # Documentation rules
+    - package_api_docs
+    - public_member_api_docs
+    
+    # Usage rules
+    - avoid_print
+    - avoid_web_libraries_in_flutter
+    - cancel_subscriptions
+    - close_sinks
+    - comment_references
+    - control_flow_in_finally
+    - empty_statements
+    - hash_and_equals
+    - invariant_booleans
+    - iterable_contains_unrelated_type
+    - list_remove_unrelated_type
+    - literal_only_boolean_expressions
+    - no_adjacent_strings_in_list
+    - no_duplicate_case_values
+    - prefer_collection_literals
+    - prefer_conditional_assignment
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_contains
+    - prefer_final_fields
+    - prefer_final_locals
+    - prefer_initializing_formals
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - prefer_single_quotes
+    - prefer_typing_uninitialized_variables
+    - recursive_getters
+    - slash_for_doc_comments
+    - test_types_in_equals
+    - throw_in_finally
+    - type_init_formals
+    - unawaited_futures
+    - unnecessary_brace_in_string_interps
+    - unnecessary_getters_setters
+    - unnecessary_lambdas
+    - unnecessary_new
+    - unnecessary_null_aware_assignments
+    - unnecessary_statements
+    - unnecessary_this
+    - unrelated_type_equality_checks
+    - use_rethrow_when_possible
+    - valid_regexps
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
