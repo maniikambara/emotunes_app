@@ -19,6 +19,7 @@ This directory contains the TFLite model for facial emotion detection.
 ## Usage
 
 The model expects preprocessed input images:
+
 1. RGB format (3 channels)
 2. Normalized pixel values (0-1)
 3. Resized to 224x224 pixels
@@ -32,5 +33,5 @@ The model expects preprocessed input images:
 
 ## References
 
-- MobileNetV2: https://arxiv.org/abs/1801.04381
-- FER2013 Dataset: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge
+- MobileNetV2: <https://arxiv.org/abs/1801.04381>
+- FER2013 Dataset: <https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge>
