@@ -13,20 +13,18 @@ EmoTunes is a cross-platform application that recommends music based on your emo
 ## Project Structure
 
 ```
-.
-├── backend/                 # FastAPI backend service
-│   ├── main.py             # Main application entry point
-│   ├── services/           # Service layer (Spotify, analysis)
-│   ├── schemas.py          # Data models and validation
-│   └── utils.py            # Utility functions
-│
 └── emotunes_app/           # Flutter mobile application
     ├── lib/                # Application source code
     │   ├── screens/        # UI screens
     │   ├── services/       # Business logic
     │   └── themes/         # App theming
-    └── assets/             # Static assets
-        └── models/         # TFLite models
+    ├── assets/             # Static assets
+    │   └── models/         # TFLite models
+    ├── backend/                # FastAPI backend service
+        ├── main.py             # Main application entry point
+        ├── services/           # Service layer (Spotify, analysis)
+        ├── schemas.py          # Data models and validation
+        └── utils.py            # Utility functions
 ```
 
 ## Prerequisites
@@ -55,7 +53,7 @@ EmoTunes is a cross-platform application that recommends music based on your emo
 
 3. Set up the Flutter app:
    ```bash
-   cd emotunes_app
+   cd ..
    flutter pub get
    cp .env.example .env     # Configure your environment variables
    ```
