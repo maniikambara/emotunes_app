@@ -5,7 +5,7 @@ from typing import List, Dict, Optional
 import asyncio
 from datetime import datetime, timedelta
 
-from ..schemas import SongResponse, AudioFeatures, MoodEnum
+from .schemas import SongResponse, AudioFeatures, MoodEnum
 from ..config import Settings
 
 logger = logging.getLogger(__name__)

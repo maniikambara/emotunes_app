@@ -37,12 +37,13 @@ EmoTunes is a cross-platform application that recommends music based on your emo
 ## Setup
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/maniikambara/emotunes_app.git
-   cd emotunes
    ```
 
 2. Set up the backend:
+
    ```bash
    cd backend
    python -m venv venv
@@ -52,6 +53,7 @@ EmoTunes is a cross-platform application that recommends music based on your emo
    ```
 
 3. Set up the Flutter app:
+
    ```bash
    cd ..
    flutter pub get
@@ -66,12 +68,14 @@ EmoTunes is a cross-platform application that recommends music based on your emo
 ## Running the Application
 
 1. Start the backend server:
+
    ```bash
    cd backend
    uvicorn main:app --reload
    ```
 
 2. Run the Flutter app:
+
    ```bash
    cd emotunes_app
    flutter run
